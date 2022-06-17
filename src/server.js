@@ -3,7 +3,8 @@
 const express = require('express');
 const error404Handler = require('./error-handlers/404.js');
 const error500Handler = require('./error-handlers/500.js');
-const router = require('./routes/person.js');
+const routerForPerson = require('./routes/person.js');
+const routerForAnimal = require('./routes/animal.js');
 
 const app = express();
 
@@ -11,7 +12,8 @@ const PORT = process.env.PORT || 3002;
 
 app.use(express.json());
 
-app.use(router);
+app.use(routerForPerson);
+app.use(routerForAnimal);
 
 app.use('*', error404Handler);
 
