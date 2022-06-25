@@ -6,9 +6,10 @@ const { PersonModel } = require('../models');
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    res.status(200).send('Looks good.');
-});
+// proof of life
+// router.get('/', (req, res) => {
+//     res.status(200).send('Looks good.');
+// });
 
 // POST
 router.post('/person', async (req, res, next) => {
