@@ -1,4 +1,3 @@
-/* eslint-disable indent */
 'use strict';
 
 const express = require('express');
@@ -15,10 +14,6 @@ app.use(express.json());
 
 app.use(routerForPerson);
 app.use(routerForAnimal);
-
-app.get('/', (req, res) => {
-  res.status(200).send('Looks good!');
-});
 
 app.use('*', error404Handler);
 
