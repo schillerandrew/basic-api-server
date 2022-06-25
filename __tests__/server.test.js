@@ -5,15 +5,15 @@ const { server } = require('../src/server.js');
 const supertest = require('supertest');
 const request = supertest(server);
 
-// const { sequelize } = require('../src/models');
+const { sequelize } = require('../src/models');
 
-// beforeAll(async () => {
-//     await sequelize.sync();
-// });
+beforeAll(async () => {
+    await sequelize.sync();
+});
 
-// afterAll(async () => {
-//     await sequelize.sync();
-// });
+afterAll(async () => {
+    await sequelize.sync();
+});
 
 describe('Server Testing', () => {
 
