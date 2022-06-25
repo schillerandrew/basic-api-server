@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 'use strict';
 
 const { Sequelize, DataTypes } = require('sequelize');

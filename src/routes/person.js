@@ -7,9 +7,9 @@ const { PersonModel } = require('../models');
 const router = express.Router();
 
 // proof of life
-router.get('/', (req, res) => {
-    res.status(200).send('Looks good.');
-});
+// router.get('/', (req, res) => {
+//     res.status(200).send('Looks good.');
+// });
 
 // POST
 router.post('/person', async (req, res, next) => {
