@@ -27,7 +27,7 @@ Build a REST API using Express, by creating a proper series of endpoints that pe
 > ## Links
 
 - [GitHub actions](https://github.com/schillerandrew/basic-api-server/actions)
-- [GitHub pull request](https://github.com/schillerandrew/basic-api-server/pull/3)
+- [GitHub pull request](https://github.com/schillerandrew/basic-api-server/pull/10)
 - [Heroku app](https://schiller-lab2-basic-api-server.herokuapp.com/)
 
 > ## Architecture
